@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url("https://arnabto.github.io/Netflix-UI-Clone/assets/netflixbg.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    padding: 30px 80px;
+}
+
+.logo {
+    color: red;
+    font-size: 40px;
+}
+
+.login-page {
+    min-height: 100vh;
+}
+
+.login-box {
+    width: 400px;
+    margin: 50px auto;
+    padding: 60px;
+
+    background-color: rgba(56, 56, 56, 0.75);
+
+    border-radius: 10px;
+
+    backdrop-filter: blur(10px);
+}
+.login-box h1 {
+    margin-bottom: 30px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 20px;
+
+    background-color: #333;
+    color: white;
+
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 15px;
+
+    background: red;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 15px;
+}
+
+.extra a,
+.login-box p a {
+    color: white;
+}
